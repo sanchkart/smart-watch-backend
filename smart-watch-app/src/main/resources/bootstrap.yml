@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: smart-watch-app
+  profiles:
+    active: dev
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.optimagrowth: DEBUG
