@@ -9,6 +9,7 @@ spring:
       server:
         git:
           uri: https://github.com/sanchkart/smart-watch-backend-config.git
+          default-label: main
 server:
   port: 8071
 
