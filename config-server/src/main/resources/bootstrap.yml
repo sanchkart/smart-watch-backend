@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active:
+      - git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sanchkart/smart-watch-backend-config.git
+server:
+  port: 8071
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
