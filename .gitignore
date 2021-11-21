@@ -1,2 +1,6 @@
 /smart-watch-app/target/
 /.idea/
+/eureka-server/target/
+/app/target/
+/backend/target/
+/config-server/target/
